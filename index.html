@@ -18,7 +18,7 @@
     </nav>
     <header>
       <div class="row">
-         <div>
+         <div class="home__description">
             <h1>Best place to learn Frontend</h1>
             <p class="subheader">Go from being an absolute beginner to pro with a simplified process?</p>
             <button>Start now</button>
@@ -31,59 +31,65 @@
   <main>
     <section id="About">
         <h2>About</h2>
-        <div class="section__description">
-          <div class="section__description--wrapper">
-            <p> class="section__description--para">
+        <div class="row"></div>
+          <div class="section__description">
+           <div class="section__description--wrapper">
+             <p class="section__description--para">
                 Louren is ready to do it when ever and how ever you want. Just name the place and, apparently
                 she will be there with arms wide open
-            </p>     
-            <p> class="section__description--para">
+             </p>     
+             <p class="section__description--para">
                 Louren is ready to do it when ever and how ever you want. Just name the place and, apparently 
                 she will be there with arms wide open
-            </p>
-          </div>
-        <figure class="about__img--wrapper">
-            <img src="./assets/about.jpg" alt="">
-        </figure>
-        </div>
+             </p>
+            </div>
+            <figure class="about__img--wrapper">
+             <img src="./assets/about.jpg" alt="">
+             </figure>
+           </div>
+          <div class="row"></div>  
     </section>
 
     <section id="discord">
         <h2>Discord</h2>
-        <figure>
-            <img src="./assets/discord.png" alt="Discord">
-        </figure>   
-        <div>
-            <p> class="section__description--para">
+        <div class="row"></div>
+         <div class="section__description">
+           <figure class="about__img--wrapper">
+             <img src="./assets/discord.png" alt="Discord">
+           </figure>    
+         <div class="section__description--wrapper">
+             <p class="section__description--para">
                 Louren is ready to do it when ever and how ever you want. Just name the place and, apparently
                 she will be there with arms wide open
-            </p>     
-            <p> class="section__description--para">
+             </p>     
+             <p class="section__description--para">
                 Louren is ready to do it when ever and how ever you want. Just name the place and, apparently 
                 she will be there with arms wide open
-            </p>
-        </div>
+             </p>
+         </div>
+       </div>
     </section>    
     <section id="contact">
         <h2>Contact</h2>
         <form action="">
             <span>Email</span>
-            <input type="text" placeholder="jane@example.com">
+            <input type="email" placeholder="jane@example.com">
             <span>message</span>
-            <textarea type="text" placeholder="jane@example.com"></textarea>
+            <textarea type="text" placeholder="Coolwebsite, lets get connected!"></textarea>
+            <button>Contact Us!</button>
         </form>    
     </section>
   </main>
 
   <footer>
-        <img src=" ./assets/FES.svg" alt="">
-        <div>
-            <a href="About">About</a>
-            <a href="discord">discord</a>
-            <a href="contact">contact</a>
-            <a href="">courses</a>
+        <img class="footer__logo" src=" ./assets/FES.svg" alt="">
+        <div class="footer__links">
+          <a class="footer__link" href="About">About</a>
+          <a class="footer__link" href="discord">discord</a>
+          <a class="footer__link" href="contact">contact</a>
+          <a class="footer__link" href="">courses</a>
         </div>
         <p>Copyright Frontend simplified</p>
- </footer>
+  </footer>
  </body>
  </html> 
